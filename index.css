@@ -1,0 +1,763 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  width: 375px;
+  height: 60px;
+  background-color: rgba(192, 192, 192, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 8%;
+  top: 10%;
+  color: #272a31;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(122, 122, 122);
+  background-color: rgba(122, 122, 122, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  left: 30px;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Poppins', Times, serif;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #818181;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 45px;
+}
+
+.logo img {
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  bottom: 5%;
+  left: 18%;
+  border-radius: 6px;
+}
+
+.intro {
+  width: 375px;
+  height: 600px;
+  background: url(assets/intro\ background.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heading {
+  color: #ec5242;
+  font-size: 24px;
+  position: absolute;
+  top: 13.8%;
+  left: 10%;
+}
+
+.intro h2 {
+  color: #ec5242;
+  width: 260px;
+  line-height: 40px;
+  font-size: 35px;
+  position: absolute;
+  top: 19%;
+  left: 10%;
+}
+
+.paragraph {
+  color: #272a31;
+  position: absolute;
+  width: 75%;
+  top: 37%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  left: 10%;
+  padding: 10px;
+  border: 2px solid #d3d3d3;
+}
+
+.date {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  line-height: 35px;
+}
+
+.date span {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.fa-dollar-sign {
+  color: #d3d3d3;
+  position: absolute;
+  top: 11%;
+  right: 15%;
+  font-size: 35px;
+}
+
+.fa-arrow-trend-up {
+  color: #d3d3d3;
+  position: absolute;
+  top: 11%;
+  left: 15%;
+  font-size: 35px;
+}
+
+.fa-money-bill-trend-up {
+  color: #d3d3d3;
+  position: absolute;
+  bottom: 11%;
+  left: 10%;
+  font-size: 35px;
+}
+
+.trading-bot {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.program {
+  width: 375px;
+  height: 800px;
+  background: url(assets/our\ futers\ background.jpg);
+  position: absolute;
+  left: 0;
+  top: 600px;
+}
+
+.program h2 {
+  color: #d3d3d3;
+  position: absolute;
+  left: 33.33%;
+}
+
+.bottom-line {
+  width: 50px;
+  height: 1.5px;
+  z-index: 33;
+  background-color: #ec5242;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+
+.futers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  height: 500px;
+  position: absolute;
+  top: 16%;
+}
+
+.future {
+  width: 90%;
+  height: 90px;
+  background-color: rgba(122, 122, 122, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.future img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 40px;
+}
+
+footer p {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+}
+
+.futers p {
+  color: #ec5242;
+  position: absolute;
+  left: 100px;
+  font-size: 18px;
+}
+
+.future .description {
+  color: #d3d3d3;
+  font-size: 13px;
+  width: 150px;
+  left: 200px;
+}
+
+.join {
+  width: 85%;
+  height: 90px;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  font-size: 30px;
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  border: none;
+}
+
+.Instructors {
+  width: 375px;
+  height: 1450px;
+  position: absolute;
+  top: 1400px;
+  left: 0;
+}
+
+.Instructors h2 {
+  color: #272a31;
+  position: absolute;
+  left: 28%;
+  top: 2%;
+}
+
+.Instructors .bottom-line {
+  top: 7%;
+}
+
+.container {
+  position: absolute;
+  top: 12%;
+}
+
+.teacher {
+  width: 90%;
+  height: 200px;
+}
+
+.teacher-img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 5%;
+}
+
+.baw {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -15px;
+  left: 10px;
+}
+
+.teacher h3 {
+  position: absolute;
+  left: 43%;
+  margin-top: -20px;
+  color: #272a31;
+}
+
+.teacher .summary {
+  color: #ec5242;
+  font-style: italic;
+  position: absolute;
+  left: 43%;
+  margin-top: 10px;
+}
+
+.teacher .description {
+  color: #272a31;
+  font-weight: 500;
+  width: 60%;
+  position: relative;
+  left: 48%;
+  top: 20%;
+}
+
+.gray-line {
+  width: 35px;
+  height: 1.8px;
+  background-color: #d3d3d3;
+  position: relative;
+  left: 48%;
+}
+
+.first,
+.third,
+.forth {
+  margin-top: -55px;
+}
+
+.second,
+.fifth {
+  margin-top: -38px;
+}
+
+.sixth {
+  margin-top: -20px;
+}
+
+.partenrs {
+  width: 375px;
+  height: 200px;
+  background-color: #272a31;
+  position: absolute;
+  left: 0;
+  top: 2850px;
+}
+
+.partenrs h2 {
+  color: #818181;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.partenrs .bottom-line {
+  top: 36%;
+  left: 48%;
+  width: 35px;
+  height: 1px;
+}
+
+.partenrs h3 {
+  color: #818181;
+  position: absolute;
+}
+
+.warrior {
+  left: 10%;
+  top: 40%;
+}
+
+.tradez {
+  right: 18%;
+  top: 40%;
+}
+
+.ATS {
+  top: 67%;
+  left: 15%;
+}
+
+.ct {
+  right: 15%;
+  top: 67%;
+}
+
+footer {
+  width: 375px;
+  height: 200px;
+  background-color: #d3d3d3;
+  position: absolute;
+  top: 3050px;
+  left: 0;
+}
+
+.footer-img {
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  left: 17%;
+  top: 15%;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-header {
+    height: 120px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .upper-header {
+    width: 100vw;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #272a31;
+  }
+
+  .socila-media {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+
+  #twitter {
+    color: #d3d3d3;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  #linkedin {
+    color: #d3d3d3;
+    font-size: 22px;
+  }
+
+  .socila-media span {
+    color: #d3d3d3;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .main-header {
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #d3d3d3;
+  }
+
+  .logo-d {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 8%;
+  }
+
+  .nav {
+    position: absolute;
+    right: 25%;
+    top: 30%;
+  }
+
+  .nav a {
+    color: #272a31;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .w-logo {
+    color: #ec5242;
+    position: absolute;
+    right: 7%;
+    top: 0;
+    border: 3.5px solid #ec5242;
+    padding: 10px;
+  }
+
+  .intro {
+    width: 100vw;
+    top: 120px;
+  }
+
+  .heading {
+    font-size: 50px;
+    top: 10%;
+  }
+
+  .intro h2 {
+    font-size: 65px;
+    width: 600px;
+    line-height: 65px;
+    top: 20%;
+  }
+
+  .paragraph {
+    width: 50%;
+    top: 50%;
+  }
+
+  .date {
+    top: 65%;
+  }
+
+  .date span {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .program {
+    top: 720px;
+    width: 100vw;
+    height: 600px;
+  }
+
+  .program h2 {
+    left: 39%;
+    font-size: 44px;
+  }
+
+  .bottom-line {
+    left: 46%;
+    width: 60px;
+    top: 17%;
+  }
+
+  .futers {
+    width: 90%;
+    flex-direction: row;
+    gap: 5px;
+    height: 400px;
+    left: 5%;
+    top: 14%;
+  }
+
+  .future {
+    width: 20%;
+    height: 70%;
+  }
+
+  .future img {
+    position: relative;
+    top: -60px;
+    left: 35%;
+    width: 65px;
+    height: 65px;
+  }
+
+  footer p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    left: 45%;
+    top: 33%;
+  }
+
+  .future p {
+    position: relative;
+    left: 0;
+    top: -5px;
+  }
+
+  #s,
+  #w {
+    left: 15px;
+  }
+
+  #bot,
+  #news,
+  #signs {
+    left: 32px;
+  }
+
+  .future .description {
+    position: relative;
+    margin-left: -270px;
+    text-align: center;
+    top: 50px;
+    width: 80%;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+  #d,
+  #work {
+    top: 50px;
+    left: 150px;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .whole {
+    color: #d3d3d3;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+  }
+
+  .Instructors {
+    top: 1320px;
+    width: 100vw;
+    height: 680px;
+  }
+
+  .Instructors h2 {
+    left: 38%;
+    top: -3%;
+    font-size: 35px;
+  }
+
+  .Instructors .bottom-line {
+    top: 8.5%;
+    left: 45%;
+  }
+
+  #speaker1 {
+    position: relative;
+    left: 23%;
+  }
+
+  .teacher h3 {
+    left: 35%;
+  }
+
+  .teacher .summary {
+    left: 35%;
+  }
+
+  .teacher .description {
+    left: 35%;
+  }
+
+  .gray-line {
+    left: 35%;
+  }
+
+  .first,
+  .third,
+  .forth {
+    margin-top: -50px;
+  }
+
+  #speaker2 {
+    position: relative;
+    left: 120%;
+    top: -215px;
+  }
+
+  .second,
+  .fifth {
+    margin-top: -46px;
+  }
+
+  #speaker3 {
+    position: relative;
+    left: 23%;
+    top: -220px;
+  }
+
+  #speaker4 {
+    position: relative;
+    left: 120%;
+    top: -440px;
+  }
+
+  #speaker5 {
+    position: relative;
+    left: 23%;
+    top: -450px;
+  }
+
+  #speaker6 {
+    position: relative;
+    left: 120%;
+    top: -670px;
+  }
+
+  .sixth {
+    margin-top: -30px;
+  }
+
+  .partenrs {
+    top: 2000px;
+    width: 100vw;
+    height: 250px;
+  }
+
+  .partenrs h2 {
+    font-size: 32px;
+    left: 45%;
+  }
+
+  .warrior {
+    font-size: 33px;
+    left: 20%;
+    top: 35%;
+  }
+
+  .tradez {
+    font-size: 33px;
+    top: 35%;
+    left: 50%;
+  }
+
+  .ATS {
+    font-size: 33px;
+    top: 35%;
+    left: 75%;
+  }
+
+  .ct {
+    font-size: 33px;
+    top: 60%;
+    left: 65%;
+  }
+
+  .icahn {
+    font-size: 33px;
+    top: 60%;
+    left: 30%;
+  }
+
+  footer {
+    top: 2250px;
+    width: 100vw;
+  }
+
+  .footer-img {
+    top: 30%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .icahn {
+    display: none;
+  }
+
+  .whole {
+    display: none;
+  }
+}

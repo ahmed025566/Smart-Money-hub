@@ -1,0 +1,659 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  width: 375px;
+  height: 60px;
+  background-color: rgba(192, 192, 192, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 8%;
+  top: 10%;
+  color: #272a31;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(122, 122, 122);
+  background-color: rgba(122, 122, 122, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  left: 30px;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Poppins', Times, serif;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #818181;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 45px;
+}
+
+.logo img {
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  bottom: 5%;
+  left: 18%;
+  border-radius: 6px;
+}
+
+.headline {
+  width: 375px;
+  height: 600px;
+  background: rgba(122, 122, 122, 0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.heading {
+  color: #ec5242;
+  font-size: 24px;
+  position: absolute;
+  top: 13.8%;
+  left: 23%;
+}
+
+.headline h2 {
+  color: #ec5242;
+  line-height: 40px;
+  font-size: 35px;
+  position: absolute;
+  top: 21%;
+  left: 15%;
+  width: 90%;
+}
+
+.decription {
+  width: 80%;
+  height: 110px;
+  background-color: #fff;
+  color: #272a31;
+  position: absolute;
+  top: 40%;
+  left: 7.5%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact {
+  width: 88%;
+  font-size: 12px;
+  position: absolute;
+  top: 67%;
+  color: #272a31;
+  left: 5%;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fa-dollar-sign {
+  color: #d3d3d3;
+  position: absolute;
+  top: 11%;
+  right: 15%;
+  font-size: 35px;
+}
+
+.fa-arrow-trend-up {
+  color: #d3d3d3;
+  position: absolute;
+  top: 11%;
+  left: 15%;
+  font-size: 35px;
+}
+
+.fa-money-bill-trend-up {
+  color: #d3d3d3;
+  position: absolute;
+  bottom: 11%;
+  left: 10%;
+  font-size: 35px;
+}
+
+.trading-bot {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.logo-part {
+  width: 375px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.head {
+  color: #272a31;
+  position: absolute;
+  left: 22%;
+  top: 5%;
+}
+
+.style {
+  color: #272a31;
+  position: absolute;
+  left: 13%;
+  top: 15%;
+}
+
+.red-line {
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+  position: absolute;
+  top: 27%;
+  left: 45%;
+}
+
+.purpose {
+  color: #272a31;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  top: 30%;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.logo-div {
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  left: 5%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 2px;
+}
+
+.logo-div img {
+  width: 80%;
+  height: 70px;
+}
+
+.past {
+  width: 375px;
+  height: 750px;
+  position: absolute;
+  top: 1100px;
+  left: 0;
+}
+
+.past h3 {
+  position: absolute;
+  left: 20%;
+  top: 4%;
+  color: #272a31;
+}
+
+.red-line1 {
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+  position: absolute;
+  top: 11%;
+  left: 45%;
+}
+
+.look {
+  text-align: center;
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  color: #272a31;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.background {
+  position: absolute;
+  top: 25%;
+  left: 7.5%;
+  width: 85%;
+  height: 200px;
+  background-image: url(assets/webinar\ 1.jpg);
+  background-size: 111%;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  background-color: rgba(236, 82, 66, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.year {
+  color: #d3d3d3;
+  font-size: 35px;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+
+.first {
+  color: #d3d3d3;
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: 15%;
+}
+
+.background1 {
+  position: absolute;
+  top: 60%;
+  left: 7.5%;
+  width: 85%;
+  height: 200px;
+  background-image: url(assets/webinar\ 1.jpg);
+  background-size: 111%;
+  background-repeat: no-repeat;
+}
+
+.layer1 {
+  background-color: rgba(236, 82, 66, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.second {
+  color: #d3d3d3;
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: 7%;
+}
+
+.partenrs {
+  width: 375px;
+  height: 200px;
+  background-color: #272a31;
+  position: absolute;
+  left: 0;
+  top: 1850px;
+}
+
+.partenrs h2 {
+  color: #818181;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.partenrs .bottom-line {
+  top: 36%;
+  left: 48%;
+  width: 35px;
+  height: 1px;
+}
+
+.partenrs h3 {
+  color: #818181;
+  position: absolute;
+}
+
+.warrior {
+  left: 10%;
+  top: 40%;
+}
+
+.tradez {
+  right: 18%;
+  top: 40%;
+}
+
+.ATS {
+  top: 67%;
+  left: 15%;
+}
+
+.ct {
+  right: 15%;
+  top: 67%;
+}
+
+footer {
+  width: 375px;
+  height: 200px;
+  background-color: #d3d3d3;
+  position: absolute;
+  top: 2050px;
+  left: 0;
+}
+
+.footer-img {
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  left: 17%;
+  top: 15%;
+  border-radius: 5px;
+}
+
+footer p {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+}
+
+.add {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-header {
+    height: 120px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .upper-header {
+    width: 100vw;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #272a31;
+  }
+
+  .socila-media {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+
+  #twitter {
+    color: #d3d3d3;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  #linkedin {
+    color: #d3d3d3;
+    font-size: 22px;
+  }
+
+  .socila-media span {
+    color: #d3d3d3;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .main-header {
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #d3d3d3;
+  }
+
+  .logo-d {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 8%;
+  }
+
+  .nav {
+    position: absolute;
+    right: 25%;
+    top: 30%;
+  }
+
+  .nav a {
+    color: #272a31;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .w-logo {
+    color: #ec5242;
+    position: absolute;
+    right: 7%;
+    top: 0;
+    border: 3.5px solid #ec5242;
+    padding: 10px;
+  }
+
+  .headline {
+    width: 100vw;
+    top: 120px;
+  }
+
+  .heading {
+    font-size: 35px;
+    left: 40%;
+    margin-bottom: 30px;
+  }
+
+  .headline h2 {
+    left: 33%;
+    margin-top: 40px;
+  }
+
+  .decription {
+    width: 50%;
+    left: 25%;
+  }
+
+  .add {
+    display: inline-block;
+  }
+
+  .logo-part {
+    width: 100vw;
+    top: 720px;
+  }
+
+  .head {
+    font-size: 33px;
+    left: 37%;
+  }
+
+  .style {
+    font-size: 26px;
+    left: 36%;
+  }
+
+  .purpose {
+    left: 32%;
+    width: 30%;
+  }
+
+  .logo-div {
+    width: 30%;
+    left: 33%;
+  }
+
+  .logo-div img {
+    height: 90px;
+    border-radius: 6px;
+  }
+
+  .past {
+    top: 1220px;
+    width: 100vw;
+  }
+
+  .past h3 {
+    font-size: 30px;
+    top: 1%;
+    left: 35%;
+  }
+
+  .red-line1 {
+    left: 46%;
+  }
+
+  .look {
+    left: 33%;
+    top: 12%;
+  }
+
+  .look br {
+    display: none;
+  }
+
+  .background {
+    width: 30%;
+    height: 300px;
+    left: 15%;
+    background-size: 125%;
+  }
+
+  .background1 {
+    width: 30%;
+    height: 300px;
+    background-size: 125%;
+    left: 50%;
+    top: 25%;
+  }
+
+  .year {
+    top: 30%;
+  }
+
+  .first,
+  .second {
+    left: 22%;
+    top: 50%;
+  }
+
+  .partenrs {
+    top: 1800px;
+    width: 100vw;
+    height: 250px;
+  }
+
+  .partenrs h2 {
+    font-size: 32px;
+    left: 45%;
+  }
+
+  .warrior {
+    font-size: 33px;
+    left: 20%;
+    top: 35%;
+  }
+
+  .tradez {
+    font-size: 33px;
+    top: 35%;
+    left: 50%;
+  }
+
+  .ATS {
+    font-size: 33px;
+    top: 35%;
+    left: 75%;
+  }
+
+  .ct {
+    font-size: 33px;
+    top: 60%;
+    left: 65%;
+  }
+
+  .icahn {
+    font-size: 33px;
+    top: 60%;
+    left: 30%;
+  }
+
+  footer {
+    top: 2050px;
+    width: 100vw;
+  }
+
+  .footer-img {
+    top: 30%;
+    left: 20%;
+  }
+
+  footer p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    left: 45%;
+    top: 33%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .icahn {
+    display: none;
+  }
+}
