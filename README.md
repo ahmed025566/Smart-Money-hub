@@ -70,7 +70,7 @@
 > Here is a link to the demo project.
 
 - [Live Demo Link]( https://ahmed025566.github.io/Smart-Money-hub/)
-
+- [short presenrtation](https://www.loom.com/share/0dd1f2464d3b418ca63eabe9fbba0b1b)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -160,6 +160,9 @@ If you like this project you can buy me a coffee UwU
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
+ 
+ I would like to explain that the design of this website originally belong to Cindy Shin, so I would like
+ to thank him for this awesome design.
 
 I would like to thank those who've motivated me to not give up, and also I would like to thank Microverse for this great opportunity.
 

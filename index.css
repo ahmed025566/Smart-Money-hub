@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -389,7 +390,7 @@ footer p {
 footer {
   width: 375px;
   height: 200px;
-  background-color: #d3d3d3;
+  background-color: #808080;
   position: absolute;
   top: 3050px;
   left: 0;
@@ -404,7 +405,31 @@ footer {
   border-radius: 5px;
 }
 
+.more-btn {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #818181;
+  background-color: #fff;
+  position: absolute;
+  left: 10%;
+  top: 90%;
+  color: #808080;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.more-img {
+  position: absolute;
+  top: 30%;
+  left: 57%;
+}
+
 @media only screen and (min-width: 768px) {
+  .more-btn {
+    display: none;
+  }
+
   .desktop-header {
     height: 120px;
     width: 100vw;
@@ -431,7 +456,7 @@ footer {
     height: 70%;
     position: absolute;
     top: 15%;
-    right: 10%;
+    right: -2%;
   }
 
   #twitter {
@@ -552,6 +577,10 @@ footer {
   .future {
     width: 20%;
     height: 70%;
+  }
+
+  .future:hover {
+    border: 4px solid #d3d3d3;
   }
 
   .future img {
@@ -762,4 +791,8 @@ footer {
   .whole {
     display: none;
   }
+}
+
+.display-none {
+  display: none;
 }
