@@ -91,7 +91,9 @@ body {
 }
 
 .intro h2 {
-  color: #ec5242;
+  background: -webkit-linear-gradient(60deg, #f71d13, #b70606, #f75515, #f75515, #f75515);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   width: 260px;
   line-height: 40px;
   font-size: 35px;
@@ -748,7 +750,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .desktop-header {
     display: none;
   }

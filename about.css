@@ -91,7 +91,9 @@ body {
 }
 
 .headline h2 {
-  color: #ec5242;
+  background: -webkit-linear-gradient(60deg, #f71d13, #b70606, #f75515, #f75515, #f75515);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 40px;
   font-size: 35px;
   position: absolute;
