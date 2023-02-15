@@ -390,7 +390,7 @@ footer p {
 footer {
   width: 375px;
   height: 200px;
-  background-color: #808080;
+  background-color: #2e2e2e;
   position: absolute;
   top: 3050px;
   left: 0;
@@ -456,7 +456,7 @@ footer {
     height: 70%;
     position: absolute;
     top: 15%;
-    right: -2%;
+    right: -7%;
   }
 
   #twitter {

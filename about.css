@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
@@ -373,7 +376,7 @@ body {
 footer {
   width: 375px;
   height: 200px;
-  background-color: #808080;
+  background-color: #2e2e2e;
   position: absolute;
   top: 2050px;
   left: 0;
@@ -426,7 +429,7 @@ footer p {
     height: 70%;
     position: absolute;
     top: 15%;
-    right: -2%;
+    right: -5%;
   }
 
   #twitter {
