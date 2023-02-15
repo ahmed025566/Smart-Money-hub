@@ -78,6 +78,7 @@ for (let i = 0; i < teachers.length; i += 1) {
   const instructor = document.createElement('div');
   instructor.className = 'teacher';
   instructor.setAttribute('id', teachers[i].id);
+  if (i >= 2 && window.innerWidth <= 768) { instructor.classList.add('display-none'); }
   instructor.innerHTML = `
 <img src = "${teachers[i].image}" alt ="Instructior Photo" class="teacher-img">
 <img src = "assets/black and white.jpg" alt = "black and white image" class= "baw">
@@ -88,3 +89,38 @@ for (let i = 0; i < teachers.length; i += 1) {
 `;
   container.append(instructor);
 }
+
+const button = document.createElement('button');
+button.className = 'more-btn';
+button.innerHTML = `More
+<img src = "assets/MORE.png" alt="see-more" class="more-img">
+`;
+container.append(button);
+
+function display3() {
+  const teacher = document.getElementById('speaker3');
+  teacher.classList.remove('display-none');
+}
+function display4() {
+  const teacher = document.getElementById('speaker4');
+  teacher.classList.remove('display-none');
+}
+function display5() {
+  const teacher = document.getElementById('speaker5');
+  teacher.classList.remove('display-none');
+}
+function display6() {
+  const teacher = document.getElementById('speaker6');
+  teacher.classList.remove('display-none');
+}
+function remove() {
+  document.querySelector('.more-btn').classList.add('display-none');
+}
+function display() {
+  display3();
+  display4();
+  display5();
+  display6();
+  remove();
+}
+button.onclick = display;

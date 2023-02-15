@@ -1,5 +1,10 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -91,7 +96,9 @@ body {
 }
 
 .headline h2 {
-  color: #ec5242;
+  background: -webkit-linear-gradient(60deg, #f71d13, #b70606, #f75515, #f75515, #f75515);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 40px;
   font-size: 35px;
   position: absolute;
@@ -370,7 +377,7 @@ body {
 footer {
   width: 375px;
   height: 200px;
-  background-color: #d3d3d3;
+  background-color: #2e2e2e;
   position: absolute;
   top: 2050px;
   left: 0;
@@ -423,7 +430,7 @@ footer p {
     height: 70%;
     position: absolute;
     top: 15%;
-    right: 10%;
+    right: -5%;
   }
 
   #twitter {
@@ -567,13 +574,13 @@ footer p {
     width: 30%;
     height: 300px;
     left: 15%;
-    background-size: 125%;
+    background-size: 130%;
   }
 
   .background1 {
     width: 30%;
     height: 300px;
-    background-size: 125%;
+    background-size: 130%;
     left: 50%;
     top: 25%;
   }
